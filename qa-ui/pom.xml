@@ -18,6 +18,7 @@
         <web.driver.manager.version>5.3.0</web.driver.manager.version>
         <awaitility.version>4.1.1</awaitility.version>
         <surfire.version>2.22.1</surfire.version>
+
     </properties>
 
     <dependencies>
@@ -36,6 +37,7 @@
             <artifactId>awaitility</artifactId>
             <version>${awaitility.version}</version>
         </dependency>
+
     </dependencies>
 
     <build>
