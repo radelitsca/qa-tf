@@ -1,0 +1,17 @@
+---
+- id: 0
+  username: Lyubov
+  firstName: Luba
+  lastName: R
+  email: radelitsca@test.com
+  password: test
+  phone: 3445456566767
+  userStatus: 0
+- id: 0
+  username: Olya
+  firstName: Olha
+  lastName: L
+  email: test2test.com
+  password: gift
+  phone: 098765
+  userStatus: 0

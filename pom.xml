@@ -11,6 +11,7 @@
     <modules>
         <module>qa-ui</module>
         <module>qa-api</module>
+        <module>petstore-api</module>
     </modules>
 
     <properties>
@@ -63,7 +64,11 @@
             <artifactId>allure-testng</artifactId>
             <version>${allure.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.12.1</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -87,7 +92,7 @@
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
                         <logging>true</logging>
-                    <env>dev</env>
+                        <env>test</env>
                     </systemPropertyVariables>
                 </configuration>
                 <dependencies>

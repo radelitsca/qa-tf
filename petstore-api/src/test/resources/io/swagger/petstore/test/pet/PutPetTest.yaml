@@ -1,0 +1,12 @@
+---
+id: 5
+category:
+  id: 3
+  name: backsBunny
+name: pet
+photoUrls:
+  - src/test/resources/io/swagger/petstore/test/pet/Unknown.jpeg
+tags:
+  - id: 2
+    name: rabbit
+status: available
