@@ -5,7 +5,6 @@ import io.swagger.petstore.payloads.user.UserRequest;
 import io.swagger.petstore.responses.GeneralResponse;
 import org.assertj.core.api.Assertions;
 import org.testng.annotations.Test;
-import org.testng.asserts.Assertion;
 
 import static io.swagger.petstore.constants.GeneralConstants.TYPE_UNKNOWN;
 import static io.swagger.petstore.utils.UserRequestUtil.getRandomUser;

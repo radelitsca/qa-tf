@@ -3,7 +3,6 @@ package io.swagger.petstore.utils;
 import com.github.javafaker.Faker;
 import io.swagger.petstore.config.ProjectConfigImpl;
 import io.swagger.petstore.payloads.store.StoreRequest;
-import io.swagger.petstore.payloads.user.UserRequest;
 
 import java.util.Locale;
 import java.util.Random;

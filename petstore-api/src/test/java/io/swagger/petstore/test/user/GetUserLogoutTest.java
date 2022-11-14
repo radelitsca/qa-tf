@@ -1,6 +1,5 @@
 package io.swagger.petstore.test.user;
 
-import io.swagger.petstore.conditions.Conditions;
 import io.swagger.petstore.responses.GeneralResponse;
 
 import org.assertj.core.api.Assertions;

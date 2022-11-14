@@ -3,8 +3,6 @@ package io.swagger.petstore.test.user;
 import io.swagger.petstore.conditions.Conditions;
 import io.swagger.petstore.constants.HeaderConstants;
 import io.swagger.petstore.payloads.user.UserRequest;
-import io.swagger.petstore.responses.GeneralResponse;
-import org.hamcrest.CoreMatchers;
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;
 

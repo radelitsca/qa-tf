@@ -1,6 +1,5 @@
 package io.swagger.petstore.conditions;
 
-import lombok.experimental.Helper;
 import lombok.experimental.UtilityClass;
 import org.hamcrest.Matcher;
 

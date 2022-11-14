@@ -1,6 +1,5 @@
 package io.swagger.petstore.test.pet;
 
-import io.swagger.petstore.responses.GeneralResponse;
 import org.testng.annotations.Test;
 
 import static io.swagger.petstore.conditions.Conditions.generalResponse;

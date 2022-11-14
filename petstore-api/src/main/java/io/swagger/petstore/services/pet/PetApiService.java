@@ -3,7 +3,6 @@ package io.swagger.petstore.services.pet;
 import io.qameta.allure.Step;
 import io.swagger.petstore.assertions.AssertableResponse;
 import io.swagger.petstore.payloads.pet.PetRequest;
-import io.swagger.petstore.payloads.user.UserRequest;
 import io.swagger.petstore.services.ApiService;
 
 import java.io.File;
@@ -36,11 +35,4 @@ public class PetApiService extends ApiService {
                 .put("pet"));
     }
 
-    @Step
-    public AssertableResponse getPetByID(int id) {
-        return new AssertableResponse(request()
-                .pathParam("id", id)
-                .when()
-                .get("/pet/" + id));
-    }
 }
